@@ -1,3 +1,5 @@
+import '../../styles/layout/_stylestodo.scss'
+
 export function TodoCounter({ total, completed }) {
   return (
     <h1>
