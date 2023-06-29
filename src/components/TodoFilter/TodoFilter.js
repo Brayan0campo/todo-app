@@ -1,5 +1,5 @@
 export function TodoFilter() {
   return (
-    <input type="text" placeholder="Cortar cebolla" />
+    <input className="TodoFilter" type="text" placeholder="Cortar cebolla" />
   );
 }

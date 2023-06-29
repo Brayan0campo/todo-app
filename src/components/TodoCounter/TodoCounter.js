@@ -1,9 +1,7 @@
-import '../../styles/layout/_stylestodo.scss'
-
 export function TodoCounter({ total, completed }) {
   return (
-    <h1>
-      has completado {completed} de {total} TODOS
+    <h1 className="TodoCounter">
+      has completado <span>{completed}</span> de <span>{total}</span> TODOS
     </h1>
   );
 }

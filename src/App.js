@@ -6,7 +6,7 @@ import { CreateTodoButton } from './components/TodoButton/CreateTodoButton';
 
 const defaultTodo = [
   { text: 'Curso de React.Js', completed: true },
-  { text: 'Curso de Javascript', completed: false },
+  { text: 'Curso de Javascript', completed: true },
   { text: 'Curso de Next.Js', completed: false },
   { text: 'Curso de ApiREST', completed: false },
 ];

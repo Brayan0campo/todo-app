@@ -6,5 +6,13 @@
     vertical-align: baseline;
     text-decoration: none;
     list-style: none;
+    background: #F2F4F5;
+    color: #1E1E1F;
     font-family: 'Roboto Mono', monospace;
+}
+
+#root {
+    margin: 0 24px;
+    position: relative;
+    min-height: 100vh;
 }
